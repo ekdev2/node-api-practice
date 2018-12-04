@@ -18,7 +18,7 @@ gulp.task('default', function(){
     })
 });
 
-//test
+//test2
 gulp.task('test', function(){
     env({vars: {ENV: 'Test'}});
     console.log('eugene env:' + process.env.ENV);
